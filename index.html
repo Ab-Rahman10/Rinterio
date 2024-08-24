@@ -50,7 +50,7 @@
       }
     </style>
   </head>
-  <body class="manrope-font bg-[#f5f5f5] lg:bg-[#f4f4f4]">
+  <body class="manrope-font bg-[#f4f4f4]">
     <!-- header section -->
     <header
       class="w-11/12 mx-auto bg-gradient-to-b from-[#f5f5f5] to-[#f4f4f4] lg:bg-[#f4f4f4] pt-4"
@@ -134,15 +134,17 @@
     </header>
 
     <!-- main section  -->
-    <main class="relative w-11/12 mx-auto mb-44 lg:bg-[#f4f4f4]">
+    <main class="relative mb-44">
       <!-- vector img -->
       <img
-        class="absolute -top-16 -left-10 lg:flex hidden"
+        class="absolute -top-16 left-28 lg:flex hidden"
         src="./assets/Vector.png"
         alt="image"
       />
       <!-- Thoughtful design section -->
-      <section class="lg:flex gap-32 mt-24 lg:mt-44">
+      <section
+        class="w-10/12 mx-auto lg:bg-[#f4f4f4] lg:flex gap-32 mt-16 lg:mt-36"
+      >
         <!-- text content -->
         <div class="lg:w-1/2">
           <div class="flex justify-center lg:justify-start">
@@ -167,31 +169,31 @@
           </p>
           <!-- card 1 -->
           <div
-            class="flex justify-center gap-6 bg-[#ffffff] p-6 rounded-xl mt-6 lg:mt-12"
+            class="flex justify-start gap-6 bg-[#ffffff] p-6 rounded-xl mt-6"
           >
             <div>
               <img src="./assets/commercial.png" alt="image" />
             </div>
             <div>
-              <h4 class="text-xl font-extrabold">Commercial</h4>
+              <h4 class="text-xl font-extrabold pb-2">Commercial</h4>
               <p class="text-gray-500">
-                Commercial ventures blend innovation and strategy to drive
-                growth and capture markets.
+                Commercial ventures blend innovation and strategy to <br />
+                drive growth and capture markets.
               </p>
             </div>
           </div>
           <!-- card 2 -->
           <div
-            class="flex justify-center gap-6 bg-[#ffffff] p-6 rounded-xl mt-6"
+            class="flex justify-start gap-6 bg-[#ffffff] p-6 rounded-xl mt-6"
           >
             <div>
               <img src="./assets/residential.png" alt="image" />
             </div>
             <div>
-              <h4 class="text-xl font-extrabold">Residential</h4>
+              <h4 class="text-xl font-extrabold pb-2">Residential</h4>
               <p class="text-gray-500">
-                Residential spaces are designed to offer comfort and personal
-                sanctuary in everyday living.
+                Residential spaces are designed to offer comfort and <br />
+                personal sanctuary in everyday living.
               </p>
             </div>
           </div>
@@ -200,7 +202,7 @@
         <!-- image content -->
         <div>
           <img
-            class="lg:w-[550px] lg:mt-0 mt-6"
+            class="lg:w-[550px] lg:mt-2 mt-6"
             src="./assets/Rectangle.png"
             alt="image"
           />
@@ -208,7 +210,7 @@
       </section>
 
       <!-- our works section -->
-      <section class="mt-12 lg:mt-24">
+      <section class="w-10/12 mx-auto lg:bg-[#f4f4f4] mt-16 lg:mt-24">
         <div class="flex justify-center pb-4">
           <button
             class="flex items-center bg-[#ffffff] py-1 pr-5 pl-3 rounded-[50px]"
@@ -227,7 +229,6 @@
           ensuring every detail is crafted to perfection. From concept to
           completion, we bring ideas to life with precision.
         </p>
-
         <!-- cards -->
         <div class="flex flex-col lg:flex-row gap-6">
           <!-- card 1 -->
@@ -265,6 +266,112 @@
               Concept is the foundation where ideas take shape, guiding the
               creative journey to realization.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section -->
+      <section class="bg-[#ffffff] mt-16 lg:mt-24 pt-12 lg:pt-24">
+        <div class="w-10/12 mx-auto">
+          <div class="flex justify-center pb-4">
+            <button
+              class="flex items-center bg-[rgba(172,239,95,0.2)] py-1 pr-5 pl-3 rounded-[50px]"
+            >
+              <div>
+                <i class="fa-solid fa-arrow-right p-2.5"></i>
+              </div>
+              <div class="text-[#1C1C1C] font-bold">
+                Explore our Latest works
+              </div>
+            </button>
+          </div>
+          <h2 class="text-2xl lg:text-5xl font-extrabold text-center pb-6">
+            Our Latest Portfolio
+          </h2>
+          <p class="text-gray-500 text-center w-full lg:w-7/12 mx-auto pb-8">
+            Our latest portfolio is a testament to our dedication, featuring a
+            selection of projects that highlight our creativity and expertise.
+            Each piece is a reflection of our commitment to excellence.
+          </p>
+
+          <!-- gris items -->
+          <div class="grid gap-6 grid-cols-1 lg:grid-cols-12 lg:grid-rows-2">
+            <!-- item 1 -->
+            <div
+              class="w-full flex flex-col lg:flex-row gap-6 p-6 border rounded-xl lg:col-span-9"
+            >
+              <img src="./assets/img1.png" alt="image" />
+              <div>
+                <h3 class="text-2xl font-extrabold mb-4">Commercial</h3>
+                <p>
+                  Commercial projects are the intersection of strategy and
+                  creativity, where we craft tailored solutions to meet business
+                  objectives. Each endeavor is driven by a deep understanding of
+                  market needs, ensuring impactful and results-oriented
+                  outcomes. Our focus is on delivering value that propels your
+                  business forward.
+                </p>
+                <button
+                  class="flex items-center justify-center gap-2 mt-5 lg:mt-8"
+                >
+                  <div class="text-xl text-[#1C1C1C] font-extrabold">
+                    View Details
+                  </div>
+                  <div>
+                    <i
+                      class="fa-solid fa-arrow-right text-black -rotate-45 bg-btn_primary p-2.5 rounded-full"
+                    ></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="w-full p-6 border rounded-xl lg:col-span-3">
+              <img src="./assets/img2.png" alt="image" />
+            </div>
+            <!-- item 3 -->
+            <div class="w-full p-6 border rounded-xl lg:col-span-2">
+              <img
+                class="h-[180px] w-[304px]"
+                src="./assets/img3.png"
+                alt="image"
+              />
+            </div>
+            <!-- item 4 -->
+            <div
+              class="w-full flex flex-col lg:flex-row gap-6 p-6 border rounded-xl lg:col-span-8"
+            >
+              <img src="./assets/img4.png" alt="image" />
+              <div>
+                <h3 class="text-2xl font-extrabold mb-4">Commercial</h3>
+                <p>
+                  Commercial endeavors combine strategic insight with creative
+                  solutions, tailored to meet business goals and market demands.
+                  Each project is designed to maximize impact and deliver
+                  measurable results.
+                </p>
+                <button
+                  class="flex items-center justify-center gap-2 mt-5 lg:mt-8"
+                >
+                  <div class="text-xl text-[#1C1C1C] font-extrabold">
+                    View Details
+                  </div>
+                  <div>
+                    <i
+                      class="fa-solid fa-arrow-right text-black -rotate-45 bg-btn_primary p-2.5 rounded-full"
+                    ></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <!-- item 5 -->
+            <div class="w-full p-6 border rounded-xl lg:col-span-2">
+              <img
+                class="h-[180px] w-[304px]"
+                src="./assets/img5.png"
+                alt="image"
+              />
+            </div>
           </div>
         </div>
       </section>
