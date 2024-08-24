@@ -121,7 +121,7 @@
           large windows that flood the space with natural light.
         </p>
         <button
-          class="flex items-center gap-2 bg-[#CFF2A9] py-2 px-5 rounded-[50px] mt-5 lg:mt-8"
+          class="flex items-center justify-center gap-2 w-full lg:w-[205px] bg-[#CFF2A9] py-2 px-5 rounded-[50px] mt-5 lg:mt-8"
         >
           <div class="text-xl text-[#1C1C1C] font-extrabold">View Details</div>
           <div>
@@ -134,21 +134,20 @@
     </header>
 
     <!-- main section  -->
-
-    <main class="relative w-11/12 mx-auto mb-44 bg-[#f5f5f5] lg:bg-[#f4f4f4]">
+    <main class="relative w-11/12 mx-auto mb-44 lg:bg-[#f4f4f4]">
       <!-- vector img -->
       <img
         class="absolute -top-16 -left-10 lg:flex hidden"
         src="./assets/Vector.png"
         alt="image"
       />
-      <!-- Thoughtful design -->
-      <div class="lg:flex gap-32 mt-24 lg:mt-44">
+      <!-- Thoughtful design section -->
+      <section class="lg:flex gap-32 mt-24 lg:mt-44">
         <!-- text content -->
         <div class="lg:w-1/2">
           <div class="flex justify-center lg:justify-start">
             <button
-              class="flex items-center bg-[#ffffff] py-1.5 px-4 rounded-[50px]"
+              class="flex items-center bg-[#ffffff] py-1 pr-5 pl-3 rounded-[50px]"
             >
               <div>
                 <i class="fa-solid fa-arrow-right p-2.5"></i>
@@ -206,7 +205,69 @@
             alt="image"
           />
         </div>
-      </div>
+      </section>
+
+      <!-- our works section -->
+      <section class="mt-12 lg:mt-24">
+        <div class="flex justify-center pb-4">
+          <button
+            class="flex items-center bg-[#ffffff] py-1 pr-5 pl-3 rounded-[50px]"
+          >
+            <div>
+              <i class="fa-solid fa-arrow-right p-2.5"></i>
+            </div>
+            <div class="text-[#1C1C1C] font-bold">How we works</div>
+          </button>
+        </div>
+        <h2 class="text-2xl lg:text-5xl font-extrabold text-center pb-6">
+          Our Works Process
+        </h2>
+        <p class="text-gray-500 text-center w-full lg:w-7/12 mx-auto pb-8">
+          Our work process is a seamless blend of creativity and efficiency,
+          ensuring every detail is crafted to perfection. From concept to
+          completion, we bring ideas to life with precision.
+        </p>
+
+        <!-- cards -->
+        <div class="flex flex-col lg:flex-row gap-6">
+          <!-- card 1 -->
+          <div class="p-6 bg-[#E7C1D3] rounded-xl h-56 space-y-2.5">
+            <img src="./assets/concept.png" alt="image" />
+            <h4 class="text-xl font-extrabold">Concept</h4>
+            <p class="text-[#494949]">
+              Concept is the foundation where ideas take shape, guiding the
+              creative journey to realization.
+            </p>
+          </div>
+          <!-- card 2 -->
+          <div class="p-6 bg-[#EFDA6E] rounded-xl h-56 space-y-2.5">
+            <img src="./assets/flow-chart.png" alt="image" />
+            <h4 class="text-xl font-extrabold">Concept</h4>
+            <p class="text-[#494949]">
+              Concept is the foundation where ideas take shape, guiding the
+              creative journey to realization.
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="p-6 bg-[#A4DAC3] rounded-xl h-56 space-y-2.5">
+            <img src="./assets/vision.png" alt="image" />
+            <h4 class="text-xl font-extrabold">Concept</h4>
+            <p class="text-[#494949]">
+              Concept is the foundation where ideas take shape, guiding the
+              creative journey to realization.
+            </p>
+          </div>
+          <!-- card 4 -->
+          <div class="p-6 bg-[#77AAEA] rounded-xl h-56 space-y-2.5">
+            <img src="./assets/budget-planning.png" alt="image" />
+            <h4 class="text-xl font-extrabold">Concept</h4>
+            <p class="text-[#494949]">
+              Concept is the foundation where ideas take shape, guiding the
+              creative journey to realization.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section -->
     <footer></footer>
